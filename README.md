@@ -1,2 +1,2 @@
-Task for Axabee /n
+Task for Axabee \n
 Run the app with  npm run start
