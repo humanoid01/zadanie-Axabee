@@ -14,7 +14,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setLaunches(data.data.launches))
   }, [])
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(0)
   const [missionsPerPage] = useState(10)
   const [currentSort, setCurrentSort] = useState({
     property: 'mission_name',
