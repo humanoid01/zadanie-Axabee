@@ -3,7 +3,6 @@ import { filterMission, sortMission } from './SortAndFilterMissions'
 import { Buttons } from './Buttons'
 import { Table } from './Table'
 import './index.css'
-//sort
 
 function App() {
   const [filter, setFilter] = useState('')
@@ -66,5 +65,3 @@ function App() {
 }
 
 export default App
-
-//date functions
